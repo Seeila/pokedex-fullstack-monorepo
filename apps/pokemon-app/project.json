@@ -34,7 +34,12 @@
           "buildTarget": "pokemon-app:build:production",
           "dev": false
         }
-      }
+      },
+      "dependsOn": [
+        {
+          "projects": ["Pokemon.WebApi"]
+        }
+      ]
     },
     "export": {
       "executor": "@nx/next:export",

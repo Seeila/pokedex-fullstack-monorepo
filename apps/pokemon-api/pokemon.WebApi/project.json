@@ -29,7 +29,8 @@
         "production": {
           "configuration": "Release"
         }
-      }
+      },
+      "watch": true
     },
     "lint": {
       "executor": "@nx-dotnet/core:format"

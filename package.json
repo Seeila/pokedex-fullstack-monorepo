@@ -50,6 +50,7 @@
   },
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "prepare": "nx g @nx-dotnet/core:restore"
+    "prepare": "nx g @nx-dotnet/core:restore",
+    "watch":  "nx run-many -t serve -p Pokemon.WebApi pokemon-app"
   }
 }
